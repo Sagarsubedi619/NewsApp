@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/newskokhairo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/thyol"
+        android:layout_marginTop="@dimen/hydr"
+        android:layout_marginRight="@dimen/hr"
+        android:layout_marginBottom="@dimen/hq"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/mainimgview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/th"
+            android:layout_marginTop="@dimen/zs"
+            android:padding="@dimen/uyt"
+
+
+            app:srcCompat="@drawable/newsmain1"></ImageView>
+
+        <Button
+            android:id="@+id/logInbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/oiws"
+            android:layout_marginBottom="@dimen/tyg"
+
+            android:background="@color/whitish"
+            android:padding="8dp"
+            android:text="Login"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/lk"
+            android:textStyle="bold"
+            app:fontFamily="@font/amethysta" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hh"
+            android:background="@color/whitish"
+
+            android:gravity="center"
+            android:padding="@dimen/eru"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/te"
+            app:fontFamily="@font/amethysta"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

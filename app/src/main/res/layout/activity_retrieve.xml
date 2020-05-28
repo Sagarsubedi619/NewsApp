@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".retrieveActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Check your details below "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:fontFamily="@font/amethysta"
+            android:textColor="@color/textcolor"/>
+
+        <TextView
+            android:id="@+id/firstnau"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="TextView"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:fontFamily="@font/amethysta"
+            android:textColor="@color/textcolor"/>
+
+        <TextView
+            android:id="@+id/_gender"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="TextView"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:fontFamily="@font/amethysta"
+            android:textColor="@color/textcolor"/>
+
+        <TextView
+            android:id="@+id/_status"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:fontFamily="@font/amethysta"
+            android:textColor="@color/textcolor"/>
+
+        <TextView
+            android:id="@+id/_dob"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:fontFamily="@font/amethysta"
+            android:textColor="@color/textcolor"/>
+
+        <TextView
+            android:id="@+id/_phnn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="TextView"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:fontFamily="@font/amethysta"
+            android:textColor="@color/textcolor"/>
+
+
+        <Button
+            android:id="@+id/okbtn"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="@font/amethysta"
+            android:textColor="#fff"
+            android:text="Confirm and go to sign in"
+            android:background="#615F5F"/>
+
+        <Button
+            android:id="@+id/gobackbtn"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="40dp"
+            android:background="#615F5F"
+            android:textStyle="bold"
+            android:fontFamily="@font/amethysta"
+            android:text="Go back"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</RelativeLayout>
+

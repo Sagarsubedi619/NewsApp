@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".covidhome">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"><![CDATA[>
+
+        ]]>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/amethysta"
+            android:text="Please click On The markers on  map to learn more about the data related to COVID-19"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/c"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/p">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/po"
+                app:srcCompat="@drawable/covid" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/gotomap"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/BISA"
+
+            android:layout_marginRight="10dp"
+            android:background="@color/kj"
+            android:gravity="center"
+            android:padding="@dimen/AATH"
+            android:text="@string/go_to_map"
+            android:textColor="#fff"
+            android:textSize="@dimen/BIS"
+            android:textStyle="bold"
+            app:fontFamily="@font/amethysta" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

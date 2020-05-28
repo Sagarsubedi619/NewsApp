@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin"
+    android:background="@drawable/mainback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/KSHDJ"
+        android:layout_marginTop="@dimen/HDGF"
+        android:layout_marginRight="@dimen/HJDGK"
+        android:layout_marginBottom="@dimen/YEW"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:id="@+id/TestHome1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/UIUER"
+            android:gravity="center"
+            android:padding="@dimen/YY"
+            android:text="@string/s_news"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/TSTS"
+            app:fontFamily="@font/amethysta"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/RW"
+            android:gravity="center"
+            android:padding="@dimen/REQW"
+            android:text="@string/please_sign_in_below_to_read_the_latest_news"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/YEEHS"
+            app:fontFamily="@font/amethysta"
+            android:textStyle="bold"
+            />
+
+        <EditText
+
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/editback"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/editback"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/pppp"
+            android:inputType="textPassword"
+            android:padding="@dimen/TENNN" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_user_name_and_password"
+            android:background="@color/editback"
+            android:id="@+id/ceckbox"/>
+
+
+
+        <Button
+            android:id="@+id/RealSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/IWEIU"
+            android:background="#2C2B2B"
+
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/signin"
+            android:textStyle="bold"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/UI"
+            app:fontFamily="@font/amethysta"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:background="@drawable/mainback">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainback"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/TEES"
+            android:layout_marginTop="@dimen/BIS"
+            android:layout_marginRight="@dimen/TEES"
+            android:layout_marginBottom="@dimen/BIS"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/TestHome1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/TEES"
+                android:gravity="center"
+                android:padding="@dimen/AATH"
+                android:text="@string/s_news"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/HUJGWS"
+                android:textStyle="bold"
+                app:fontFamily="@font/amethysta" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/TEES"
+                android:gravity="center"
+                android:padding="@dimen/GUS"
+                android:text="@string/register"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/TEES"
+                android:textStyle="bold"
+                app:fontFamily="@font/amethysta" />
+
+            <EditText
+
+                android:id="@+id/regUname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/BIS"
+                android:background="@color/editback"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/username"
+
+                android:padding="@dimen/DAS" />
+
+
+            <EditText
+
+                android:id="@+id/password1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/BIS"
+                android:background="@color/editback"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+
+                android:padding="@dimen/DAS" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/DAS"
+                android:fontFamily="@font/amethysta"
+                android:text="@string/please_select_your_gender"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/BIS"
+                android:textStyle="bold"></TextView>
+
+
+            <RadioGroup
+
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/editback">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/male"
+
+                    android:textSize="@dimen/PANDHRA"
+                    android:textStyle="bold"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/female"
+                    android:textSize="@dimen/PANDHRA"
+                    android:textStyle="bold"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/other"
+                    android:textSize="@dimen/PANDHRA"
+                    android:textStyle="bold"
+
+                    ></RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/BIS"
+                android:layout_marginBottom="@dimen/DAS"
+                android:fontFamily="@font/amethysta"
+                android:text="@string/i_am_a"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/BIS"
+                android:textStyle="bold"></TextView>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0E0D0D"
+
+
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/BIS"
+                android:layout_marginBottom="@dimen/DAS"
+                android:fontFamily="@font/amethysta"
+                android:text="@string/DOB"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/BIS"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/BIS"
+                android:background="@color/editback"
+                android:ems="10"
+                android:gravity="center"
+
+
+                android:padding="@dimen/DAS" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/BIS"
+                android:layout_marginBottom="@dimen/DAS"
+                android:fontFamily="@font/amethysta"
+                android:text="Enter Your Phone Number  "
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/BIS"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+
+                android:id="@+id/phnnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/BIS"
+                android:background="@color/editback"
+                android:ems="10"
+                android:gravity="center"
+
+
+                android:padding="@dimen/DAS" />
+
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/BISA"
+                android:background="#242323"
+
+                android:gravity="center"
+                android:padding="@dimen/AATH"
+                android:text="Confirm"
+                android:textColor="#fff"
+                android:textSize="@dimen/BIS"
+                android:textStyle="bold"
+                app:fontFamily="@font/amethysta" />
+
+            <Button
+                android:id="@+id/summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/BISA"
+                android:background="#2C2B2B"
+
+                android:gravity="center"
+                android:padding="@dimen/AATH"
+                android:text="View Summary"
+                android:textColor="#fff"
+                android:textSize="@dimen/BIS"
+                android:textStyle="bold"
+                app:fontFamily="@font/amethysta" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
